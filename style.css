@@ -1,0 +1,49 @@
+*/inicio de encabezado*/
+body{
+	font-family: •	Agency FB;
+	margin: 0;
+}
+
+header{
+	display: flex;
+	height: 100px;
+	background-color: #6DBD91;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+h1{
+	color: white;
+	font-size: 30px;
+}
+
+h2{
+	color: white;
+	font-size: 20px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo{
+	height: 100px;
+}
+.logo img{
+	height: 100px;
+	margin-right: 40px;
+}
+nav a{
+	font-weight: 300px;
+	padding: 10px;
+*/final de encabezado*/
+}
+/*Altura de contenido de paguina*/
+main{
+	width: 1250px;
+	height: 2450px;
+	float: left;
+	background-color: #A69DF0;
+}
