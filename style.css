@@ -5,7 +5,7 @@ body{
 }
 
 header{
-	height: 100px;
+	height: 130px;
 	background-color: white;
 	justify-content: space-between;
 	align-items: center;
@@ -25,7 +25,6 @@ h2{
 a{
 	color: white;
 	text-decoration: none;
-	background-color: #A69DF0;
 }
 
 .logo{
@@ -33,25 +32,58 @@ a{
 }
 .logo img{
 	text-align: center;
-	height: 100px;
+	height: 130px;
 	margin-right: 40px;
 }
 
-nav{
-	width: 1250px; 
-	height: 50px;
-	background-color: green;
+.menu{
+	list-style: none;
+	padding: 5px;
+	background: #FAC4D1;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
 }
-nav a{
-	background-color: #A69DF0;
-	font-weight: 300px;
-*/final de encabezado*/
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block;
 }
-/*Altura de contenido de paguina*/
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+	padding-left: 25px;
+}
+
+.menu li a:hover{
+	background: #FA9DD1;
+}
+
 main{
 	width: 1250px;
 	height: 2450px;
 	float: left;
-	background-color: #A69DF0;
+	background-color: #6DBD91;
 }
 
+footer{
+	background-color: #FAC4D1;
+	width: 1250px;
+}
+
+.redes{
+	text-align: right;
+	margin-right: 100px;
+}
+
+.redes img{
+	align-items: center;
+	width: 50px;
+}
+
+.box_copyright{
+    text-align: center;
+}
